@@ -61,6 +61,9 @@ function showRightUpper(){
     let loginBtn = document.createElement("button")
     loginBtn.setAttribute('id', 'login-btn')
     loginBtn.innerText = "Login/SignUp"
+    loginBtn.addEventListener("click", function(){
+        window.location.href = "./login.html"
+    })
 
     let cartImg = document.createElement('img')
     cartImg.src = "assets/cart-logo.png"

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Big Basket Login/SignUp</title>
+    <link rel="stylesheet" href="./login.css">
+    <link rel="stylesheet" href="./global.css">
+    <script src="https://kit.fontawesome.com/68aaace298.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- *************** Login/SignUp Form ***************-->
+    <div class="container">
+        <div class="form-box">
+            <h1 id="title">Sign Up</h1>
+            <form>
+                <div class="input-group">
+                    <div class="input-field" id="name-field">
+                        <i class="fa-regular fa-user"></i>
+                        <input type="text" placeholder="Name">
+                    </div>
+                    <div class="input-field">
+                        <i class="fa-regular fa-envelope"></i>
+                        <input type="email" placeholder="Email">
+                    </div>
+                    <div class="input-field">
+                        <i class="fa-solid fa-lock"></i>
+                        <input type="password" placeholder="Password">
+                    </div>
+                    <div class="input-field">
+                        <i class="fa-solid fa-shield" id="confirm-password"></i>
+                        <input type="confirm-password" placeholder="Confirm Password">
+                    </div>
+                    <p>Lost Password ? <a href="#">Click Here!</a></p>
+                </div>
+                <div class="btn-field">
+                    <button type="button" id="signupBtn">Sign Up</button>
+                    <button type="button" id="loginBtn" class="disable">Log In</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+<script src="./login.js"></script>
+<script src="./script.js"></script>
+</html>
