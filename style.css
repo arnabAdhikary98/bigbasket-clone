@@ -11,10 +11,8 @@
     scroll-behavior: smooth;
   }
 
-
-    /* Global Styles */
-
   body {
+    min-height: 100vh;
     width: 100%;
   }
 
@@ -29,3 +27,190 @@
     color: #465b52;
     margin: 15px 0 20px 0;
   }
+#mainBody{
+  border: 1px solid red;
+  max-height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.slider-box{
+  width: 80%;
+  height: 80%;
+  margin: 30px auto;
+  padding-top: 7rem;
+  display: flex;
+}
+#slider{
+  width: 100%;
+  display: inline-flex;
+  transition: 0.7s;
+  overflow: hidden;
+  border-radius: 20px;
+  cursor: pointer;
+}
+#slider img{
+  width: 100%;
+}
+#various-options{
+  height: 70px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.options{
+  height: 80%;
+  width: 8%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 7px;
+  padding: 1%;
+  background-color: #E8E8E8;
+  cursor: pointer;
+}
+.options p{
+  font-size: 100%;
+  font-weight: 800;
+  
+}
+#various-options .ayur{
+  background-color: #4C6020;
+  
+}
+.ayur p{
+  color: white;
+}
+#neu-pass{
+  border-style: none;
+  
+}
+#neu-pass img{
+  height: auto;
+  width: 100%;
+  justify-items: auto;
+}
+#my-smart-basket{
+  height: 1%;
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin: 2% 5%;
+  background-color: #E8E8E8;
+  border-radius: 10px;
+}
+#basket-cjild01{
+  height: 10%;
+  width: 100%;
+  padding: 2%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#basket-cjild01 div:nth-child(2){
+  text-decoration: underline;
+  cursor: pointer;
+}
+#basket-cjild02{
+  height: 90%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 2%;
+  margin: 0;
+}
+.veges{
+  border: 1px dotted red;
+  height: 90%;
+  width: 24%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  padding: 2%;
+  margin: 0% .4%;
+  background-color: white;
+  cursor: pointer;
+}
+.veges-upper-content{
+  height: 70%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+}
+.veges-lower-content{
+  height: 30%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 40px;
+}
+.veges-lower-content div{
+  padding: 1px;
+  height: 20%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.veges-lower-content p{
+  font-size: 110%;
+  font-weight: 600;
+}
+.veges img{
+  height: 100%;
+  width: 80%;
+}
+.fresho-style{
+  color:rgb(144,144,144);
+  font-weight: 400;
+}
+.select-option{
+  height: 20%;
+  width: 100%;
+}
+.price-tag{
+  height: 20%;
+  width: 100%;
+}
+.add-cart-option{
+  height: 20%;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.veges-name-tag{
+  font-weight: 600;
+}
+.wish-list-btn{
+  height: 70%;
+  width: 10%;
+  margin-right: 2%;
+}
+.wish-list-btn img{
+  height: 90%;
+  width: 100%;
+}
+.add-btn{
+  height: 100%;
+  width: 80%;
+  padding: 1.5%;
+}
