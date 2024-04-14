@@ -97,7 +97,7 @@
   width: 100%;
   justify-items: auto;
 }
-#my-smart-basket{
+#my-smart-basket, #best-sellers{
   height: 1%;
   width: 85%;
   display: flex;
@@ -108,7 +108,7 @@
   background-color: #E8E8E8;
   border-radius: 10px;
 }
-#basket-cjild01{
+#basket-cjild01, #best-sellers-cjild01{
   height: 10%;
   width: 100%;
   padding: 2%;
@@ -116,11 +116,15 @@
   justify-content: space-between;
   align-items: center;
 }
-#basket-cjild01 div:nth-child(2){
+.basket-child01-content p{
   text-decoration: underline;
   cursor: pointer;
+  font-size: 100%;
 }
-#basket-cjild02{
+.basket-child01-content p:hover{
+  color: red;
+}
+#basket-cjild02, #best-sellers-cjild02{
   height: 90%;
   width: 100%;
   display: flex;
@@ -130,8 +134,7 @@
   padding-bottom: 2%;
   margin: 0;
 }
-.veges{
-  border: 1px dotted red;
+.veges, .wipes{
   height: 90%;
   width: 24%;
   display: flex;
@@ -143,8 +146,9 @@
   margin: 0% .4%;
   background-color: white;
   cursor: pointer;
+  box-shadow: 1px 1px 7px rgb(144,144,144);
 }
-.veges-upper-content{
+.veges-upper-content, .wipes-upper-content{
   height: 70%;
   width: 100%;
   display: flex;
@@ -153,7 +157,7 @@
   align-items: center;
   text-align: left;
 }
-.veges-lower-content{
+.veges-lower-content, .wipes-lower-content{
   height: 30%;
   width: 100%;
   display: flex;
@@ -163,18 +167,18 @@
   text-align: center;
   margin: 40px;
 }
-.veges-lower-content div{
+.veges-lower-content div, .wipes-lower-content div{
   padding: 1px;
   height: 20%;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
 }
-.veges-lower-content p{
+.veges-lower-content p, .wipes-lower-content p{
   font-size: 110%;
   font-weight: 600;
 }
-.veges img{
+.veges img, .wipes img{
   height: 100%;
   width: 80%;
 }
@@ -210,7 +214,57 @@
   width: 100%;
 }
 .add-btn{
-  height: 100%;
+  height: 70%;
   width: 80%;
-  padding: 1.5%;
+  padding: 1%;
+  border: 1px solid rgb(216,62,62);
+  font-size: 110%;
+  font-weight: 600;
+  color: rgb(216,62,62);
+}
+.add-btn:hover{
+  cursor: pointer;
+  background-color: red;
+  color: white;
+  transition: 0.3s;
+}
+#bank-offers{
+  height: 1%;
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 1%;
+}
+#bank-offer-upper-div{
+  height: 20%;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 3%;
+
+}
+#bank-offer-lower-div{
+  height: 80%;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  margin: 1%;
+  pad: 1%;
+}
+.bank-offer-img{
+  padding: 1%;
+  border-radius: 5%;
+  box-shadow: 1px 1px 5px rgb(144,144,144);
+}
+.bank-offer-img:hover{
+  cursor: pointer;
+}
+#bank-offer-lower-div img{
+  height: 100%;
+  width: 85%;
 }
